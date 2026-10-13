@@ -3,7 +3,7 @@
 **Improving Safety and Reducing Overrefusal in Large Language Models with Overgeneration and Preference Optimization**
 
 Batuhan K. Karaman, Ishmam Zabir, Alon Benhaim, Vishrav Chaudhary, Mert R. Sabuncu, Xia Song
-Published at ICML 2025 · [arXiv:2410.12999](https://arxiv.org/abs/2410.12999)
+Published at ICML 2025 · [proceedings.mlr.press/v267/karaman25a](https://proceedings.mlr.press/v267/karaman25a.html)
 
 LLMs tend to land on one of two failure modes: they comply with harmful requests (**unsafe**), or they refuse harmless requests that merely sound harmful (**overrefusal**).
 
@@ -49,10 +49,16 @@ python scripts/preference_optimization.py \
 ## Citation
 
 ```bibtex
-@article{karaman2024porover,
-  title   = {POROver: Improving Safety and Reducing Overrefusal in Large Language Models with Overgeneration and Preference Optimization},
-  author  = {Karaman, Batuhan K. and Zabir, Ishmam and Benhaim, Alon and Chaudhary, Vishrav and Sabuncu, Mert R. and Song, Xia},
-  journal = {arXiv preprint arXiv:2410.12999},
-  year    = {2024}
+@InProceedings{pmlr-v267-karaman25a,
+  title     = {{PORO}ver: Improving Safety and Reducing Overrefusal in Large Language Models with Overgeneration and Preference Optimization},
+  author    = {Karaman, Batuhan K. and Zabir, Ishmam and Benhaim, Alon and Chaudhary, Vishrav and Sabuncu, Mert R. and Song, Xia},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning},
+  pages     = {29050--29077},
+  year      = {2025},
+  volume    = {267},
+  series    = {Proceedings of Machine Learning Research},
+  month     = {13--19 Jul},
+  publisher = {PMLR},
+  url       = {https://proceedings.mlr.press/v267/karaman25a.html}
 }
 ```
